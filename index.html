@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hina Khan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Hina Khan</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="themed-box">
+            <span class="title-badge">Young Web Developer</span>
+            <h1>Hina Khan</h1>
+            <p class="home-paragraph">
+                Welcome to my digital garden! My name is Hina Khan, and I am currently a student in Class 9th A at Seerat Educational System. I am deeply passionate about exploring technology, styling unique web interfaces, and blending design with logic. Explore my portfolio to see my latest projects and coding journey!
+            </p>
+            <button id="welcomeBtn">Say Hello</button>
+            <div id="dynamicWelcome" class="js-output"></div>
+        </div>
+        
+        <div class="image-container">
+            <img src="c:\Users\MULTI TECH\Documents\Hina_Portfolio_project\profile.jpg.jpg" alt="Hina Khan Profile Picture" class="portfolio-img">
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="themed-box">
+            <h2>About Me</h2>
+            <p>
+                Beyond my schoolwork, my true passion lies in the art of storytelling. I am deeply invested in writing books, specifically exploring complex human emotions and suspenseful mysteries that keep readers thinking long after the final page. For me, crafting a narrative is very much like writing computer software—you start with a blank canvas and piece together different elements to build a brand new world from scratch. When I am not typing away at a new manuscript, I love practicing elegant copperplate calligraphy, painting, and experimenting with technical data tools. I am always looking for creative spaces where technology and fine arts overlap.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="themed-box">
+            <h2>Skills</h2>
+            <p>Here are the primary areas of expertise and creative tools I work with:</p>
+            
+            <ul class="skills-list">
+                <li>Web Development</li>
+                <li>Power BI</li>
+                <li>Tableau</li>
+                <li>Excel</li>
+                <li>Writing Books</li>
+            </ul>
+            
+            <button id="skillBtn">Show My Best Skill</button>
+            <div id="dynamicSkill" class="js-output"></div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="themed-box">
+            <h2>Projects</h2>
+            
+           <section id="projects">
+        <div class="themed-box">
+            <h2>Projects</h2>
+            
+            <div class="finder-box">
+                <label for="projectSelect">Filter by Topic: </label>
+                <select id="projectSelect">
+                    <option value="">-- Choose Category --</option>
+                    <option value="Web Design">Web Design</option>
+                    <option value="Dashboard">Dashboard</option>
+                    <option value="Creative Writing">Creative Writing</option>
+                </select>
+                <button id="findProjectBtn">Find Project</button>
+                <div id="dynamicProject" class="js-output"></div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="c:\Users\MULTI TECH\webpage.png" alt="My Stylish Web Page Screenshot" class="project-img">
+                    <h3>My Stylish Web Page</h3>
+                    <p>An interactive custom layout utilizing linear color gradients, stylized typography rules, and multi-prompt calculation scripts.</p>
+                    <p><strong>Skills Used:</strong> HTML5, Custom CSS, Input Scripting</p>
+                    <a href="project-web.html" class="project-link-btn">Show More Details</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="c:\Users\MULTI TECH\dashboardscreenshot.png" alt="FIFA World Cup Dashboard Preview" class="project-img">
+                    <h3>FIFA World Cup Dashboard</h3>
+                    <p>A comprehensive analytical data model built in Power BI to evaluate historical metrics and tournament performance charts.</p>
+                    <p><strong>Skills Used:</strong> Power BI, Data Modeling, Metrics Organization</p>
+                    <a href="project-dashboard.html" class="project-link-btn">Show More Details</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="c:\Users\MULTI TECH\project3.jpg.png" alt="Samizdat Marginalia Novel Concept" class="project-img">
+                    <h3>SAMIZDAT MARGINALIA</h3>
+                    <p>A complete manuscript for a psychological thriller novel exploring complex human depth, hidden annotations, and suspenseful prose.</p>
+                    <p><strong>Skills Used:</strong> Creative Writing, Narrative Architecture, Conceptual Design</p>
+                    <a href="project-book.html" class="project-link-btn">Show More Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="learning">
+        <div class="themed-box">
+            <h2>Learning Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>What I Learned</th>
+                        <th>My Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Headings, paragraphs, lists, images, links</td>
+                        <td>Good</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Colors, fonts, borders, spacing, hover effects</td>
+                        <td>Good</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Variables, prompt, alert, if-else, functions</td>
+                        <td>Learning</td>
+                    </tr>
+                    <tr>
+                        <td>Power BI</td>
+                        <td>Visualizations, data analysis blueprints, interactive charts</td>
+                        <td>Excellent</td>
+                    </tr>
+                    <tr>
+                        <td>Tableau</td>
+                        <td>Data mapping, custom data visualizations, analysis sheets</td>
+                        <td>Learning</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="themed-box">
+           <h2>Contact Me</h2>
+            <form id="contactForm" action="Https://formspree.io/f/xpqgyvyq" method="POST">
+                <div class="form-group">
+                    <label for="visitorName">Name:</label>
+                    <input type="text" id="visitorName" name="name" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="visitorEmail">Email:</label>
+                    <input type="email" id="visitorEmail" name="_replyto" placeholder="Enter your email address" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contactReason">Reason for Contact:</label>
+                    <input type="text" id="contactReason" name="reason" placeholder="e.g., Book Query, Project Collaboration" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="visitorMessage">Message:</label>
+                    <textarea id="visitorMessage" name="message" rows="4" placeholder="Type your message here" required></textarea>
+                </div>
+                
+                <div class="form-buttons">
+                    <button type="submit" id="submitFormBtn">Submit</button>
+                    <button type="reset" id="resetFormBtn">Reset</button>
+                </div>
+            </form>
+            <div id="dynamicContactReply" class="js-output"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
